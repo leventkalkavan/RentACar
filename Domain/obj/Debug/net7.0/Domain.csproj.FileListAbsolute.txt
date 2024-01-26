@@ -1,0 +1,15 @@
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/bin/Debug/net7.0/Domain.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/bin/Debug/net7.0/Core.Persistence.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/bin/Debug/net7.0/Core.Persistence.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.CopyComplete
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Domain/obj/Debug/net7.0/ref/Domain.dll
