@@ -19,3 +19,7 @@
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/obj/Debug/net7.0/ref/Persistence.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/bin/Debug/net7.0/Core.Application.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/bin/Debug/net7.0/Core.Application.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/bin/Debug/net7.0/Persistence.runtimeconfig.json
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/obj/Debug/net7.0/Persistence.genruntimeconfig.cache
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/bin/Debug/net7.0/Core.CrossCuttingConcerns.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Persistence/bin/Debug/net7.0/Core.CrossCuttingConcerns.pdb

@@ -264,3 +264,12 @@
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Core.Application.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Core.Application.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/System.CodeDom.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/System.Linq.Dynamic.Core.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Core.CrossCuttingConcerns.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/Core.CrossCuttingConcerns.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/FluentValidation.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/WebAPI/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll

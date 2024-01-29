@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "PRkpapnFpVs6X0dHH+ExI1kGHxfxA78WW4Qz+1g4SFPQtnl1KVIHzzOJ2aBceQtO8Di0uHaMqpyP4Fl3uJqqJw==",
+  "dgSpecHash": "nVNl+iHTvN6/3vHI3UK9aHLVuwrDb3rWxG4GnoHQRNo3Uw6UGR9u9YkuO6s7I8Q6tN9nFOfHO8IMn451lCsBpw==",
   "success": true,
   "projectFilePath": "/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/leventkalkavan/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/leventkalkavan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/leventkalkavan/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/leventkalkavan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "/Users/leventkalkavan/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/leventkalkavan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/leventkalkavan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
