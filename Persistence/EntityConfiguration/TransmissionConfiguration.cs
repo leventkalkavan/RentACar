@@ -16,7 +16,7 @@ public class TransmissionConfiguration : IEntityTypeConfiguration<Transmission>
         builder.Property(x => x.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(x => x.DeletedDate).HasColumnName("DeletedDate");
 
-        builder.HasIndex(indexExpression: b => b.Name, name: "UK_Transmissions_Name").IsUnique();
+        builder.HasIndex(b => b.Name, "UK_Transmissions_Name").IsUnique();
         builder.HasMany(b => b.Models);
 
         builder.HasQueryFilter(x => !x.DeletedDate.HasValue);

@@ -1,11 +1,8 @@
-using Application.Features.Models.Queries.GetList;
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Application.Requests;
 using Core.Application.Responses;
 using Core.Persistence.Dynamic;
-using Core.Persistence.Paging;
-using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,10 +13,11 @@ public class GetListByDynamicModelQuery : IRequest<GetListResponse<GetListByDyna
     public PageRequest PageRequest { get; set; }
     public DynamicQuery DynamicQuery { get; set; }
 
-    public class GetListByDynamicModelQueryHandler : IRequestHandler<GetListByDynamicModelQuery, GetListResponse<GetListByDynamicModelListItemDto>>
+    public class GetListByDynamicModelQueryHandler : IRequestHandler<GetListByDynamicModelQuery,
+        GetListResponse<GetListByDynamicModelListItemDto>>
     {
-        private readonly IModelRepository _modelRepository;
         private readonly IMapper _mapper;
+        private readonly IModelRepository _modelRepository;
 
         public GetListByDynamicModelQueryHandler(IModelRepository modelRepository, IMapper mapper)
         {
@@ -30,7 +28,7 @@ public class GetListByDynamicModelQuery : IRequest<GetListResponse<GetListByDyna
         public async Task<GetListResponse<GetListByDynamicModelListItemDto>> Handle(GetListByDynamicModelQuery request,
             CancellationToken cancellationToken)
         {
-            Paginate<Model> models = await _modelRepository.GetListByDynamicAsync(
+            var models = await _modelRepository.GetListByDynamicAsync(
                 request.DynamicQuery,
                 include: x => x.Include(x => x.Brand).Include(x => x.Fuel).Include(x => x.Transmission),
                 index: request.PageRequest.PageIndex,

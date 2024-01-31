@@ -14,9 +14,8 @@ public static class PersistenceServiceRegistration
     {
         // services.AddDbContext<BaseDbContext>(opt=> opt.UseInMemoryDatabase("nArtchitectureDb"));
 
-        services.AddDbContext<BaseDbContext>(opt => opt.
-            UseSqlServer(configuration.GetConnectionString("Mssql")));
-        
+        services.AddDbContext<BaseDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("Mssql")));
+
         services.AddScoped<IBrandRepository, BrandRepository>();
         services.AddScoped<ICarRepository, CarRepository>();
         services.AddScoped<IFuelRepository, FuelRepository>();

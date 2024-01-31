@@ -4,9 +4,6 @@ namespace Domain.Entities;
 
 public class Transmission : BaseEntity<Guid>
 {
-    public string Name { get; set; }
-    public virtual ICollection<Model> Models { get; set; }
-
     public Transmission()
     {
         Models = new HashSet<Model>();
@@ -17,4 +14,7 @@ public class Transmission : BaseEntity<Guid>
         Id = id;
         Name = name;
     }
+
+    public string Name { get; set; }
+    public virtual ICollection<Model> Models { get; set; }
 }

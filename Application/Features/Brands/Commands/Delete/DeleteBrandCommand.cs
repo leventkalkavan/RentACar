@@ -1,13 +1,16 @@
 using Application.Services.Repositories;
 using AutoMapper;
-using Domain.Entities;
+using Core.Application.Pipelines.Caching;
 using MediatR;
 
 namespace Application.Features.Brands.Commands.Delete;
 
-public class DeleteBrandCommand: IRequest<DeleteBrandResponse>
+public class DeleteBrandCommand : IRequest<DeleteBrandResponse>, ICacheRemoverRequest
 {
     public Guid Id { get; set; }
+    public string? CacheKey => "";
+    public bool BypassCache { get; }
+    public string? CacheGroupKey => "GetBrands";
 
     public class DeleteBrandCommandHandler : IRequestHandler<DeleteBrandCommand, DeleteBrandResponse>
     {
@@ -22,10 +25,10 @@ public class DeleteBrandCommand: IRequest<DeleteBrandResponse>
 
         public async Task<DeleteBrandResponse> Handle(DeleteBrandCommand request, CancellationToken cancellationToken)
         {
-            Brand? brand = await _brandRepository.GetAsync(predicate: x => x.Id == request.Id,
+            var brand = await _brandRepository.GetAsync(x => x.Id == request.Id,
                 cancellationToken: cancellationToken);
             await _brandRepository.DeleteAsync(brand);
-            DeleteBrandResponse response = new DeleteBrandResponse { IsSuccess = true };
+            var response = new DeleteBrandResponse { IsSuccess = true };
 
             return response;
         }

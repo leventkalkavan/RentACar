@@ -4,6 +4,23 @@ namespace Domain.Entities;
 
 public class Model : BaseEntity<Guid>
 {
+    public Model()
+    {
+        Cars = new HashSet<Car>();
+    }
+
+    public Model(Guid id, Guid brandId, Guid fuelid, Guid transmissionId, string name, decimal dailyPrice,
+        string imageUrl) : this()
+    {
+        Id = id;
+        BrandId = brandId;
+        FuelId = fuelid;
+        TransmissionId = transmissionId;
+        Name = name;
+        DailyPrice = dailyPrice;
+        ImageUrl = imageUrl;
+    }
+
     public Guid BrandId { get; set; }
     public virtual Brand? Brand { get; set; }
     public Guid FuelId { get; set; }
@@ -14,20 +31,4 @@ public class Model : BaseEntity<Guid>
     public decimal DailyPrice { get; set; }
     public string ImageUrl { get; set; }
     public virtual ICollection<Car>? Cars { get; set; }
-
-    public Model()
-    {
-        Cars = new HashSet<Car>();
-    }
-
-    public Model(Guid id, Guid brandId, Guid fuelid, Guid transmissionId, string name, decimal dailyPrice, string imageUrl): this()
-    {
-        Id = id;
-        BrandId = brandId;
-        FuelId = fuelid;
-        TransmissionId = transmissionId;
-        Name = name;
-        DailyPrice = dailyPrice;
-        ImageUrl = imageUrl;
-    }
 }

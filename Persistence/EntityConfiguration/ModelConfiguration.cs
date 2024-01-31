@@ -21,10 +21,10 @@ public class ModelConfiguration : IEntityTypeConfiguration<Model>
         builder.Property(x => x.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(x => x.DeletedDate).HasColumnName("DeletedDate");
 
-        builder.HasIndex(indexExpression: b => b.Name, name: "UK_Models_Name").IsUnique();
-        builder.HasOne(x=>x.Brand);
-        builder.HasOne(x=>x.Fuel);
-        builder.HasOne(x=>x.Transmission);
+        builder.HasIndex(b => b.Name, "UK_Models_Name").IsUnique();
+        builder.HasOne(x => x.Brand);
+        builder.HasOne(x => x.Fuel);
+        builder.HasOne(x => x.Transmission);
         builder.HasMany(b => b.Cars);
 
         builder.HasQueryFilter(x => !x.DeletedDate.HasValue);

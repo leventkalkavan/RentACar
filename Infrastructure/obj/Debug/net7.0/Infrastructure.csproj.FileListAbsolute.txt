@@ -17,3 +17,5 @@
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/bin/Debug/net7.0/Core.Application.dll
 /Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/bin/Debug/net7.0/Core.Application.pdb
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/bin/Debug/net7.0/Core.CrossCuttingConcerns.dll
+/Users/leventkalkavan/Desktop/Projeler/nArchitectureDemo/src/rentACar/RentACar/Infrastructure/bin/Debug/net7.0/Core.CrossCuttingConcerns.pdb

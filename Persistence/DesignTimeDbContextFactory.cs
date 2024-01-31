@@ -1,11 +1,10 @@
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Persistence.Contexts;
 
 namespace Persistence;
 
-public class DesignTimeDbContextFactory:IDesignTimeDbContextFactory<BaseDbContext>
+public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<BaseDbContext>
 {
     public BaseDbContext CreateDbContext(string[] args)
     {

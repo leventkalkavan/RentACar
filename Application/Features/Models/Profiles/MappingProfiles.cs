@@ -19,11 +19,11 @@ public class MappingProfiles : Profile
         //     .ForMember(destinationMember: x => x.FuelName, memberOptions: opt => opt.MapFrom(x => x.Fuel.Name))
         //     .ForMember(destinationMember: x => x.TransmissionName, memberOptions: opt => opt.MapFrom(x => x.Transmission.Name))
         //     .ReverseMap();
-        
+
         CreateMap<Model, GetListByDynamicModelListItemDto>()
-            .ForMember(destinationMember: x => x.BrandName, memberOptions: opt => opt.MapFrom(x => x.Brand!.Name))
-            .ForMember(destinationMember: x => x.FuelName, memberOptions: opt => opt.MapFrom(x => x.Fuel!.Name))
-            .ForMember(destinationMember: x => x.TransmissionName, memberOptions: opt => opt.MapFrom(x => x.Transmission!.Name))
+            .ForMember(x => x.BrandName, opt => opt.MapFrom(x => x.Brand!.Name))
+            .ForMember(x => x.FuelName, opt => opt.MapFrom(x => x.Fuel!.Name))
+            .ForMember(x => x.TransmissionName, opt => opt.MapFrom(x => x.Transmission!.Name))
             .ReverseMap();
         CreateMap<Paginate<Model>, GetListResponse<GetListModelListItemDto>>();
         CreateMap<Paginate<Model>, GetListResponse<GetListByDynamicModelListItemDto>>();

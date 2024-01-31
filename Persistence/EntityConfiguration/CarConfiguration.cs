@@ -15,7 +15,7 @@ public class CarConfiguration : IEntityTypeConfiguration<Car>
         builder.Property(x => x.Km).HasColumnName("Km").IsRequired();
         builder.Property(x => x.CarState).HasColumnName("CarState").IsRequired();
         builder.Property(x => x.ModelYear).HasColumnName("ModelYear").IsRequired();
-        
+
         builder.HasOne(b => b.Model);
 
         builder.HasQueryFilter(x => !x.DeletedDate.HasValue);
