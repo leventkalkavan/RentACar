@@ -17,10 +17,19 @@ public static class PersistenceServiceRegistration
         services.AddDbContext<BaseDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("Mssql")));
 
         services.AddScoped<IBrandRepository, BrandRepository>();
-        services.AddScoped<ICarRepository, CarRepository>();
-        services.AddScoped<IFuelRepository, FuelRepository>();
         services.AddScoped<IModelRepository, ModelRepository>();
-        services.AddScoped<ITransmissionRepository, TransmissionRepository>();
+        // services.AddScoped<ICarRepository, CarRepository>();
+        // services.AddScoped<IFuelRepository, FuelRepository>();
+        // services.AddScoped<ITransmissionRepository, TransmissionRepository>();
+        services.AddScoped<IBrandRepository, BrandRepository>();
+        services.AddScoped<IModelRepository, ModelRepository>();
+
+        services.AddScoped<IEmailAuthenticatorRepository, EmailAuthenticatorRepository>();
+        services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();
+        services.AddScoped<IOtpAuthenticatorRepository, OtpAuthenticatorRepository>();
+        services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUserOperationClaimRepository, UserOperationClaimRepository>();
         return services;
     }
 }

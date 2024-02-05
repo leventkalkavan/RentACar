@@ -2,7 +2,7 @@ using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistence.EntityConfiguration;
+namespace Persistence.EntityConfigurations;
 
 public class TransmissionConfiguration : IEntityTypeConfiguration<Transmission>
 {
